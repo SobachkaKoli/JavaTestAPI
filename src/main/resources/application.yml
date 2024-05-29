@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: JavaTest
+  datasource:
+    url: jdbc:postgresql://localhost:5433/test
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create
+server:
+  servlet:
+    context-path: /api
